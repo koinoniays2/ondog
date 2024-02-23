@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/96b5911d82.js" crossorigin="anonymous"></script>
+    <!-- css -->
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+    <!-- font noto sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <!-- weather api -->
+    <script src="js/weather.js"></script>
+    <title>ONDOG</title>
+</head>
+<body>
+    <header>
+        <h1><a href="#">TODAY'S <span>ONDO</span>G</a></h1>
+    </header>
+    <section class="section section-1">
+        <div class="container">
+            <div id="insta">
+                <div id="profile">
+                    <img src="images/insta-profile.svg" alt="insta-profile-img"/>
+                    <p>todays_ondog</p>
+                </div>
+                <div class="insta-content">
+                    <div id="weather">
+                        <i class="fa-solid fa-paw"></i>
+                        <span>오늘의 온도는?</span><br />
+                        <span class="current-region"></span>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <b><span class="temperature"></span></b>
+                    </div>
+                    <div id="dog-tyle">
+                        <!-- <i class="fa-solid fa-dog"></i> -->
+                        <!-- <i class="fa-solid fa-circle-exclamation"></i> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
