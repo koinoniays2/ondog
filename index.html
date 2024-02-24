@@ -22,22 +22,64 @@
     <section class="section section-1">
         <div class="container">
             <div id="insta">
-                <div id="profile">
-                    <img src="images/insta-profile.svg" alt="insta-profile-img"/>
-                    <p>todays_ondog</p>
+                <div class="insta-container">
+                    <!-- 프로필 -->
+                    <div id="insta-profile">
+                        <img src="images/insta-profile.svg" alt="insta-profile-img"/>
+                        <p>todays_ondog</p>
+                    </div>
+                    <!-- 내용 -->
+                    <div class="insta-content">
+                        <div id="weather">
+                            <i class="fa-solid fa-paw"></i>
+                            <span>오늘의 온도는?</span><br />
+                            <span class="current-region"></span>
+                            &nbsp;&nbsp;
+                            <b><span class="temperature"></span></b>
+                        </div>
+                        <div id="dog-type">
+                            <div class="type type-small">
+                                <div class="info info-small">
+                                    <span>~10kg</span>
+                                    <i class="fa-solid fa-dog"></i>
+                                </div>
+                                <span class="desc-small"></span>
+                            </div>
+                            <div class="type type-medium">
+                                <div class="info info-medium">
+                                    <span>10kg~25kg</span>
+                                    <i class="fa-solid fa-dog"></i>
+                                </div>
+                                <span class="desc-medium"></span>
+                            </div>
+                            <div class="type type-large">
+                                <div class="info info-large">
+                                    <span>25kg~</span>
+                                    <i class="fa-solid fa-dog"></i>
+                                </div>
+                                <span class="desc-large"></span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="insta-content">
-                    <div id="weather">
-                        <i class="fa-solid fa-paw"></i>
-                        <span>오늘의 온도는?</span><br />
-                        <span class="current-region"></span>
-                        &nbsp;&nbsp;&nbsp;&nbsp;
-                        <b><span class="temperature"></span></b>
+                <div class="insta-container">
+                    <div class="emoji">
+                        <div>
+                            <i id="heart" class="fa-solid fa-heart"></i>
+                            <!-- <i id="comment" class="fa-regular fa-comment"></i> -->
+                            <i id="plane" class="fa-regular fa-paper-plane"></i> 
+                        </div>
+                        <div>
+                            <i id="bookmark" class="fa-solid fa-bookmark"></i>
+                        </div>
                     </div>
-                    <div id="dog-tyle">
-                        <!-- <i class="fa-solid fa-dog"></i> -->
-                        <!-- <i class="fa-solid fa-circle-exclamation"></i> -->
-                    </div>
+                    <p>todays_ondog님 외 여러 명이 좋아합니다</p>
+                    <p>todays_ondog 안녕하세요! 오늘의 온독입니다.</p>
+                    <p>주의사항 안내드립니다.🙏</p><br />
+                    <p><i class="exclamation fa-solid fa-circle-exclamation"></i> 강아지의 견종, 나이, 질환 등 반려견의 특성과<br/>
+                    건강 상태에 따라 차이가 있을수 있습니다.</p><br />
+                    <p><i class="exclamation fa-solid fa-circle-exclamation"></i> 기준은 미국 터프츠 수의과 대학에서<br />
+                    제시한 가이드를 기반으로 합니다.</p>
                 </div>
             </div>
         </div>
