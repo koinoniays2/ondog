@@ -28,39 +28,44 @@ function onGeoSuccess(position) {
         if(8 <= temp && temp <= 20) {
             descS.innerHTML = stap1;
             descM.innerHTML = stap1;
-        }else if(5 <= temp && temp <= 17) {
+        }
+        if(5 <= temp && temp <= 17) {
             descL.innerHTML = stap1;
         }
         // stap2
-        if(5 <= temp && temp <= 7 || 21 <= temp && temp <= 22) {
+        if((5 <= temp && temp <= 7) || (21 <= temp && temp <= 22)) {
             descS.innerHTML = stap2;
             descM.innerHTML = stap2;
-        }else if(2 <= temp && temp <= 4 || 18 <= temp && temp <= 20) {
+        }
+        if((2 <= temp && temp <= 4) || (18 <= temp && temp <= 20)) {
             descL.innerHTML = stap2;
         }
         // stap3
-        if(-3 <= temp && temp <= 4 || 23 <= temp && temp <= 28) {
+        if((-3 <= temp && temp <= 4) || (23 <= temp && temp <= 28)) {
             descS.innerHTML = stap3;
             descM.innerHTML = stap3;
-        }else if(-8 <= temp && temp <= 1 || 21 <= temp && temp <= 25) {
-            descL.innerHTML = stap3;
-        }
+            }
+        if((-8 <= temp && temp <= 1) || (21 <= temp && temp <= 25)) {
+                descL.innerHTML = stap3;
+            }
         // stap4
-        if(-5 <= temp && temp <= -4 || 29 <= temp && temp <= 31) {
+        if((-5 <= temp && temp <= -4) || (29 <= temp && temp <= 31)) {
             descS.innerHTML = stap4;
-        }else if(-11 <= temp && temp <= -4 || 29 <= temp && temp <= 31) {
+        }
+        if((-11 <= temp && temp <= -4) || (29 <= temp && temp <= 31)) {
             descM.innerHTML = stap4;
         }
-        else if(-11 <= temp && temp <= -9 || 26 <= temp && temp <= 28) {
+        if((-11 <= temp && temp <= -9) || (26 <= temp && temp <= 28)) {
             descL.innerHTML = stap4;
         }
         // stap5
         if(32 <= temp || temp <= -6) {
             descS.innerHTML = stap5;
-        }else if(32 <= temp || temp <= -12) {
+        }
+        if(32 <= temp || temp <= -12) {
             descM.innerHTML = stap5;
         }
-        else if(29 <= temp || temp <= -12) {
+        if(29 <= temp || temp <= -12) {
             descL.innerHTML = stap5;
         }
     });
