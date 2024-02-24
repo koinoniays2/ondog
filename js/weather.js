@@ -16,11 +16,11 @@ function onGeoSuccess(position) {
         const temperature = document.querySelector(".temperature");
         temperature.innerText = temp + "º";
         // 설명
-        const stap1 = "위험하지 않은 온도에요.<br />밖에서 신나게 놀아요!";
-        const stap2 = "위험 가능성이 적은 온도에요.<br />재밌게 놀아도 되지만 조심하세요!";
-        const stap3 = "견종에 따라 안전하지 않은 온도에요.<br />산책시 잘 지켜봐주세요!";
-        const stap4 = "위험할 수 있는 온도에요.<br />장시간 산책은 조심하세요!";
-        const stap5 = "생명을 위협하는 온도에요.<br />장시간 산책을 피해주세요!";
+        const stap1 = "<span style='color:#67AB59'>위험하지 않은 온도</span>에요.<br />밖에서 신나게 놀아요!";
+        const stap2 = "<span style='color:#67AB59'>위험 가능성이 적은 온도</span>에요.<br />재밌게 놀아도 되지만 조심하세요!";
+        const stap3 = "<span style='color:#FFA570'>견종에 따라 안전하지 않은 온도</span>에요.<br />산책시 잘 지켜봐주세요!";
+        const stap4 = "<span style='color:#FF6933'>위험할 수 있는 온도</span>에요.<br />장시간 산책은 조심하세요!";
+        const stap5 = "<span style='color:#BA2336'>생명을 위협하는 온도</span>에요.<br />장시간 산책을 피해주세요!";
         const descS = document.querySelector(".desc-small");
         const descM = document.querySelector(".desc-medium");
         const descL = document.querySelector(".desc-large");
